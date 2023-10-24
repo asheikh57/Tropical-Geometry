@@ -52,6 +52,9 @@ class Tropical:
         self = self * other
         return self
 
+    def __pow__(self, other):
+        return Tropical(other*self.val)
+
     def __ge__(self, other):
         """
         Greater than equal to, same as normal numbers.
