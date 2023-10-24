@@ -37,5 +37,4 @@ Use "main.py" as entry point. Create a graph object e.g. `graph = Graph()`. To c
 
 Other things can be done, refer to `Graph`.
 
-Finally, 
 
