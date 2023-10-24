@@ -28,3 +28,14 @@ The graphs looked cool.
 An example of a graph:
 
 ![graphs](images/example.jpg)
+
+## How to use (as of now)
+
+Simply clone the repository, install requirements.
+
+Use "main.py" as entry point. Create a graph object e.g. `graph = Graph()`. To create a function, make sure the output is a tropical number given a tropical number, then use `graph.add_func(<<function_name>>)` to add the function with `<<function_name>>`. To display a plot, do: `graph.plot()`
+
+Other things can be done, refer to `Graph`.
+
+Finally, 
+
